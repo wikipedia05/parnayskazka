@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парная Сказка</title>
+    <link rel="stylesheet" href="./css/normilize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Loading -->
+    <div class="loading">
+        <img src="img/loading.gif" alt="">
+    </div>
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="logo" style="font-family: 'Pacifico', cursive; font-size: 30px;">Парная Сказка</a>
+            <div class="header__info">
+                <address class="header__info-address">
+                    г. Санкт Петербург, ул. Куйбышева 31
+                </address>
+                <div class="phone">
+                    <a href="tel:88128449549" class="phone__link">
+                        8 (812) 844-95-49
+                    </a>
+                    <div class="phone__text">Ежедневно с 9:00 до 20:00</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <main class="content">
+
+        <!-- First Window -->
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__title-top">выгодно</div>
+                    <h1 class="hero__title title title--weight">Скидка на первое посещение <br> 15%</h1>
+                    <p class="hero__desc">Будем очень рады увидеть вас у <br> нас в гостях</p>
+                    <div class="hero__action">
+                        <a href="#products" class="hero__action-button button">Перейти в каталог</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Products -->
+
+        <section class="products" id="products">
+            <img class="product-leaf1" src="img/leaf.png" alt="">
+            <img class="product-leaf2" src="img/leaf.png" alt="">
+            <img class="product-leaf3" src="img/leaf.png" alt="">
+            <div class="container products__inner">
+                <h2 class="products__title title title--dark title--centered">Всё для вашего отдыха и настроения</h2>
+                <ul class="products__list list-reset">
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services1.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Аренда парных</h3>
+                                <p class="products__card-desc">выбор парных: баня, сауна, <br> хаммам, офуро</p>
+                                <div class="products__card-price">от 15000 руб./час </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services2.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">SPA-процедуры</h3>
+                                <p class="products__card-desc">очищение и омоложение <br> кожи</p>
+                                <div class="products__card-price">от 1000 руб. </div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services3.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Массажи</h3>
+                                <p class="products__card-desc">релакс и восстановление <br> мыщц</p>
+                                <div class="products__card-price">от 2000 руб./час</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services4.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Бассейны и джакузи</h3>
+                                <p class="products__card-desc">контрастные водные <br> процедуры</p>
+                                <div class="products__card-price">500 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services5.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Зоны отдыха</h3>
+                                <p class="products__card-desc">уютные лаунж-зоны и <br> чайные комнаты</p>
+                                <div class="products__card-price">от 300 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services6.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Услуги парильщиков</h3>
+                                <p class="products__card-desc">ритуалы парения и <br> ароматерапия</p>
+                                <div class="products__card-price">от 1000 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services7.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Фитобар и питание</h3>
+                                <p class="products__card-desc">соки, чаи и легкие закуски, <br> всё на ваш выбор</p>
+                                <div class="products__card-price">от 200 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services8.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Солевое счастье</h3>
+                                <p class="products__card-desc">соляная комната и ледяные <br> фонтаны</p>
+                                <div class="products__card-price">от 500 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="products__item">
+                        <article class="products__card">
+                            <img src="img/services9.png" alt="Пирожное" class="products__card-image" width="380"
+                                height="245" loading="lazy">
+                            <div class="products__card-content">
+                                <h3 class="products__card-title">Флоатинг</h3>
+                                <p class="products__card-desc">полное расслабление в <br> капсуле с соленой водой</p>
+                                <div class="products__card-price">1500 руб.</div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Photo -->
+
+        <section class="photo">
+            <div class="photo__wrapper">
+                <div class="container">
+                    <div class="photo__inner">
+                        <div class="photo__content">
+                            <div class="photo__top-title">Не нашли то что нужно?</div>
+                            <h2 class="photo__title title">Может ответить на <br> любой ваш вопрос, <br> просто позвоните <br> нам</h2>
+                            <label class="photo__input-custom button">
+                                8 (812) 844-95-49
+                                <input type="file" class="photo__input input-reset">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about">
+            <div class="container about__inner">
+                <div class="about__content">
+                    <div class="about__top-title">КТО БУДЕТ РУКОВОДИТЬ ПРОЦЕССОМ ОФОРМЛЕНИЯ?</div>
+                    <h2 class="about__title title title--dark">Лично <br> проконсультирует вас <br> и оформит услугу</h2>
+                    <ul class="about__list list-reset">
+                        <li class="about__item">Проконсультирует по выбору услуги</li>
+                        <li class="about__item">Поможет организовать комфортный отдых для вас и ваших друзей</li>
+                        <li class="about__item">Устроит все чётко по вашим запросам</li>
+                    </ul>
+                    <a href="#" class="about__connection button">Задать вопрос Юлии</a>
+                </div>
+                <div class="about__image">
+                    <img style="margin: 20px 0;" src="./img/woman.png" alt="Кондитер Юлия Кондратьева" width="580" height="804">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+
+        <section class="reviews">
+            <h2 class="reviews__title title title--centered">Почитайте отзывы довольных клиентов</h2>
+            <div class="reviews__swiper swiper">
+                <div class="swiper__swiper-wrapper swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper__item ">
+                            <div class="swiper__content">
+                                <h3 class="swiper__title">«Результат дико порадовал, друзья были в восторге»</h3>
+                                <p class="swiper__text">
+                                    "Потрясающий отдых! Провели вечер в банном комплексе и остались в полном восторге! Парная была идеально прогрета, а парильщик просто мастер своего дела — такой расслабляющий веничный массаж я пробовала впервые! После парной наслаждались джакузи и вкусным травяным чаем в уютной зоне отдыха. Обязательно вернемся ещё раз, особенно понравился флоатинг — невероятное ощущение, как будто паришь в невесомости. Рекомендую всем, кто хочет отвлечься и полностью расслабиться!"
+                                </p>
+                            </div>
+                            <div class="swiper__user">
+                                <img src="img/review3.png" alt="Аватар комментатора"
+                                    class="swiper__user-avatar" width="380" height="380" loading="lazy">
+                                <div class="swiper__user-name">Ирина Ларионова</div>
+                                <div class="swiper__user-location">Санкт-Петербург</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__item ">
+                            <div class="swiper__content">
+                                <h3 class="swiper__title">«Ездили с семьей, все остались довольны местом!»</h3>
+                                <p class="swiper__text">
+                                    Отличное место для отдыха всей семьей. Уютная атмосфера, продуманный интерьер, а главное — доброжелательный персонал, который сразу создает ощущение уюта. Парная шикарная, а ароматы трав в ней просто расслабляют. Дети в восторге от теплого бассейна, а мы оценили зону отдыха с вкусным чаем и натуральным медом. Спасибо за чудесный день, будем рекомендовать друзьям!
+                                </p>
+                            </div>
+                            <div class="swiper__user">
+                                <img style="border-radius: 100%; width: 380px; height: 380px;" src="img/review2.jpg" alt="Аватар комментатора"
+                                    class="swiper__user-avatar" width="380" height="380" loading="lazy">
+                                <div class="swiper__user-name">Ксения Астафьева</div>
+                                <div class="swiper__user-location">Москва</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__item ">
+                            <div class="swiper__content">
+                                <h3 class="swiper__title">«Безумно понравилось то, как все устроено, спасибо за прекрасный отдых!»</h3>
+                                <p class="swiper__text">
+                                    Посетил банный комплекс с друзьями, и это был настоящий отдых для души и тела! Парная — просто огонь, идеальная температура, все чисто и уютно. После парилки нырнули в прохладный бассейн — настоящее удовольствие! Особенно понравился чайный уголок с травяным чаем, который идеально дополняет атмосферу. Обязательно вернемся, чтобы еще раз насладиться этим оазисом спокойствия
+                                </p>
+                            </div>
+                            <div class="swiper__user">
+                                <img src="img/review1.jpg" style="width: 380px; height: 380px; border-radius: 100%;" alt="Аватар комментатора"
+                                    class="swiper__user-avatar" width="380" height="380" loading="lazy">
+                                <div class="swiper__user-name">Игорь Максимов</div>
+                                <div class="swiper__user-location">Казань</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper__item ">
+                            <div class="swiper__content">
+                                <h3 class="swiper__title">«Прекрасное место чтобы хорошо провести время!»</h3>
+                                <p class="swiper__text">
+                                    Недавно побывали в банном комплексе и остались под большим впечатлением. Всё продумано до мелочей: от комфортных раздевалок до приятной музыки в зоне отдыха. Парная с идеально подобранным паром — то, что нужно для полного расслабления. Очень понравилась возможность заказать спа-процедуры, которые стали приятным дополнением к отдыху. Персонал приветливый и заботливый, чувствуется, что здесь действительно ценят своих гостей. Обязательно приедем снова!
+                                </p>
+                            </div>
+                            <div class="swiper__user">
+                                <img src="img/reviews4.jpg" style="width: 380px; height: 380px; border-radius: 100%;" alt="Аватар комментатора"
+                                    class="swiper__user-avatar" width="380" height="380" loading="lazy">
+                                <div class="swiper__user-name">Ирина Ларионова</div>
+                                <div class="swiper__user-location">Санкт-Петербург</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper__buttons">
+                    <button class="swiper__button button button-reset prev" type="button"></button>
+                    <button class="swiper__button button button-reset next" type="button"></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__main">
+                <h2 class="footer__title">Чтобы сделать заказ, укажите ваш телефон</h2>
+                <div class="footer__subtitle">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</div>
+                <form action="#" class="footer__form">
+                    <div class="footer__tel">
+                        <label class="footer__tel-inner">
+                            <input type="tel" class="input-reset footer__input-tel" placeholder="Номер телефона"
+                                name="phone" required>
+                        </label>
+                        <button class="footer__button button button-reset" type="submit">Сделать заказ</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer__extra">
+                <div style="color: #fff; font-size: 22px;" class="footer__copyright">© parnayskzka.ru, 2054 | Праная сказка</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/loading.js"></script>
+</body>
+
+</html>
